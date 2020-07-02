@@ -1,0 +1,34 @@
+{
+  "name": "wink-twitter-sentiment",
+  "version": "1.0.0",
+  "description": "Using wink-nlp for Twitter sentiment analysis",
+  "main": "sentiment.js",
+  "scripts": {
+     "start": "node sentiment.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallaviratra/wink-twitter-sentiment.git"
+  },
+  "keywords": [
+    "wink-nlp",
+    "twitter",
+    "sentiment",
+    "analysis",
+    "nlp",
+    "nodeJS",
+    "winkJS"
+  ],
+  "author": "Pallavi Ratra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pallaviratra/wink-twitter-sentiment/issues"
+  },
+  "homepage": "https://github.com/pallaviratra/wink-twitter-sentiment#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twitter": "^1.7.1",
+    "wink-eng-lite-model": "https://github.com/winkjs/wink-eng-lite-model/releases/download/0.1.0/wink-eng-lite-model-0.1.0.tgz",
+    "wink-nlp": "^0.1.0"
+  }
+}
